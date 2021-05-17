@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top {
+  width: 1000px;
+  min-height: 250px;
+  margin: 50px auto;
+  margin-bottom: 10px;
+  background-color: rgb(202, 190, 190);
+  color: #000;
+  border: 1px solid #000;
+}
+.top ul {
+  margin-left: 20px;
+}
+.middle {
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bottom {
+  width: 1000px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: rgb(202, 190, 190);
+  border: 1px solid #000;
+  position: relative;
+}
+.edit-block {
+  display: none;
+}
+.coverBlock {
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.area {
+  width: 850px;
+  height: 150px;
+  margin: 0 auto;
+}
+.style-block {
+  display: none;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.formSizeBlock {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.formSizeBlock input {
+  margin-right: 10px;
+}
+.fontFamilyBlock select {
+  width: 200px;
+  height: 30px;
+}
+.color-button {
+  margin-top: 20px;
+}
+.textColorBlock,
+.backgroundColorBlock {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 150px;
+}
+.color {
+  height: 50px;
+  width: 50px;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.black {
+  background-color: black;
+}
+.yellow {
+  background-color: yellow;
+}
+.deeppink {
+  background-color: deeppink;
+}
+.white {
+  background-color: white;
+}
+.blueviolet {
+  background-color: blueviolet;
+}
+.darkblue {
+  background-color: darkblue;
+}
+.form-style {
+  margin-top: 20px;
+}
+.chooseBlock {
+  margin: 50px auto;
+  width: 800px;
+  min-height: 200px;
+  background-color: rgb(202, 190, 190);
+  border: 1px solid #000;
+  display: none;
+}
+.enteredBlock {
+  margin: 20px 0 5px 20px;
+}
+.tableCreateBlock,
+.listCreatorBlock {
+  margin-left: 20px;
+}
+.TrInput,
+.TdInput,
+.widthInput,
+.heightInput {
+  width: 650px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+input.TrInput,
+.TdInput {
+  margin-left: 30px;
+}
+input.widthInput {
+  margin-left: 12px;
+}
+input.heightInput {
+  margin-left: 8px;
+}
+.tableBorder {
+  width: 800px;
+  height: 100px;
+  margin-top: 20px;
+  display: flex;
+}
+.borderWidthInput,
+.borderTypeInput,
+.borderColorInput {
+  width: 100px;
+  height: 30px;
+}
+.borderWidth,
+.borderType,
+.borderColor {
+  width: calc(800px / 3);
+  height: 70px;
+}
+.listCreator {
+  display: none;
+}
+.LI,
+.listMark {
+  width: 650px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.LI {
+  margin-left: 35px;
+}
+/* buttons */
+.edit,
+.style,
+.add,
+.save {
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.edit:hover,
+.style:hover,
+.add:hover,
+.save:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid yellowgreen;
+}
+.edit {
+  background-color: yellow;
+  color: #000;
+}
+.style {
+  background-color: blue;
+}
+.add {
+  background-color: red;
+}
+.save {
+  background-color: green;
+}
+.textColor,
+.backgroundColor {
+  padding: 5px 10px;
+  background-color: grey;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  color: white;
+}
+.textColor:hover,
+.backgroundColor:hover {
+  cursor: pointer;
+  background-color: darkgray;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+.tableBtn,
+.createList {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.tableBtn:hover,
+.createList:hover {
+  background-color: darkgreen;
+  border: 2px solid green;
+  cursor: pointer;
+  border-radius: 5px;
+  list-style-type: circle;
+}
