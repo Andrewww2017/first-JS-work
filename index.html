@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="entranceBlock">
+        <div class="top">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, rem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, rem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, rem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, rem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, rem.</p>
+        </div>
+        <div class="middle">
+            <button type="button" class="edit">edit</button>
+            <button type="button" class="style">style</button>
+        </div>
+        <div class="bottom">
+            <div class="edit-block">
+                <div class="coverBlock">
+                    <textarea class="area" cols="30" rows="10"></textarea>
+                    <div class="bottomClick">
+                        <button class="add">add</button>
+                        <button class="save">save</button>
+                    </div>
+                </div>
+            </div>
+            <div class="style-block">
+                <form class="formSizeBlock">
+                    <div><span>Font size</span></div>
+                    <input type="radio" name="size" value="12px">12px
+                    <input type="radio" name="size" value="14px">14px
+                    <input type="radio" name="size" value="16px">16px
+                    <input type="radio" name="size" value="18px">18px
+                    <input type="radio" name="size" value="20px">20px
+                </form>
+                <form class="fontFamilyBlock">
+                    <div><span>Font family</span></div>
+                    <select name="form-family">
+                        <option value="">Chose option</option>
+                        <option value="cursive">Cursive</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="monospase">Monospase</option>
+                        <option value="sans-serif">Sans-serif</option>
+                    </select>
+                </form>
+                <div class="color-button">
+                    <button type="button" class="textColor">Color of text</button>
+                    <button type="button" class="backgroundColor">Background color</button>
+                </div>
+                <div class="textColorBlock">
+                    <div class="color red"></div>
+                    <div class="color blue"></div>
+                    <div class="color green"></div>
+                    <div class="color black"></div>
+                    <div class="color yellow"></div>
+                    <div class="color deeppink"></div>
+                    <div class="color white"></div>
+                    <div class="color blueviolet"></div>
+                    <div class="color darkblue"></div>
+                </div>
+                <div class="backgroundColorBlock">
+                    <div class="color red"></div>
+                    <div class="color blue"></div>
+                    <div class="color green"></div>
+                    <div class="color black"></div>
+                    <div class="color yellow"></div>
+                    <div class="color deeppink"></div>
+                    <div class="color white"></div>
+                    <div class="color blueviolet"></div>
+                    <div class="color darkblue"></div>
+                </div>
+                <div class="form-style">
+                    <div><span>Style:</span></div>
+                    <form name="font">
+                        <input type="checkbox" name="bold" value="bold"> Bold text
+                        <input type="checkbox" name="cursive" value="cursive"> Cursive text
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="chooseBlock">
+        <div class="enteredBlock">
+            <h2>Choose what you want</h2>
+            <input class="table" type="radio" name="chose">Table
+            <input class="list" type="radio" name="chose">List
+        </div>
+        <div class="tableCreateBlock">
+            <div class="countTR">
+                <span>Count TR:</span>
+                <input class="TrInput" type="text" name="TR" placeholder="Count TR:">
+            </div>
+            <div class="countTD">
+                <span>Count TD:</span>
+                <input class="TdInput" type="text" name="TD" placeholder="Count TD:">
+            </div>
+            <h3>Add style to your table:</h3>
+            <div class="widthTd">
+                <span>Width of TD:</span>
+                <input class="widthInput" type="text" name="widthTd" placeholder="Width of TD:">
+            </div>
+            <div class="heightTd">
+                <span>Height of TD:</span>
+                <input class="heightInput" type="text" name="heightTd" placeholder="Height of TD:">
+            </div>
+            <div class="tableBorder">
+                <div class="borderWidth">
+                    <span>Width of border</span>
+                    <input class="borderWidthInput" type="text" name="width" placeholder="Width:">
+                </div>
+                <div class="borderType">
+                    <span>Type of border:</span>
+                    <select class="borderTypeInput" name="Bordtype">
+                        <option value="solid">solid</option>
+                        <option value="dashed">dashed</option>
+                        <option value="dotted">dotted</option>
+                        <option value="double">double</option>
+                    </select>
+                </div>
+                <div class="borderColor">
+                    <span>Color of border:</span>
+                    <select class="borderColorInput" name="bordColor">
+                        <option value="black">black</option>
+                        <option value="red">red</option>
+                        <option value="blue">blue</option>
+                        <option value="green">green</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button class="tableBtn">Create table</button>
+            </div>
+        </div>
+        <div class="listCreatorBlock">
+            <div class="CountList">
+                <span>Count Li:</span>
+                <input class="LI" type="text" name="li" placeholder="Count Li:">
+            </div>
+            <div class="typeMarks">
+                <span>Type of marks:</span>
+                <select class="listMark" name="marks">
+                    <option class="listValue" value="circle">circle</option>
+                    <option class="listValue" value="disc">disc</option>
+                    <option class="listValue" value="square">square</option>
+                </select>
+            </div>
+            <button class="createList">Create list</button>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
